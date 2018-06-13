@@ -1,0 +1,30 @@
+1518425678867	geckodriver	INFO	geckodriver 0.19.0
+1518425678874	geckodriver	INFO	Listening on 127.0.0.1:53143
+1518425681959	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\13694\\AppData\\Local\\Temp\\rust_mozprofile.wmK6X6s1CfGc"
+1518425683055	Marionette	INFO	Enabled via --marionette
+1518425686225	Marionette	INFO	Listening on port 53157
+1518425687192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518425725094	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\13694\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 30808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 30808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1518425877799	geckodriver	INFO	geckodriver 0.19.0
+1518425877806	geckodriver	INFO	Listening on 127.0.0.1:53488
+1518425880878	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\13694\\AppData\\Local\\Temp\\rust_mozprofile.YlCWp3ZFPEzU"
+1518425882011	Marionette	INFO	Enabled via --marionette
+1518425885702	Marionette	INFO	Listening on port 53500
+1518425886149	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\13694\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=tes&json=1&p=3&sid=25638_1423_21126_22075&req=2&csor=3&pwd=te&cb=jQuery110207626050290658755_1518425890628&_=1518425890632, line 1: TypeError: jQuery110207626050290658755_1518425890628 is not a function
+Unable to read VR Path Registry from C:\Users\13694\AppData\Local\openvr\openvrpaths.vrpath
+[Child 21348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\13694\AppData\Local\openvr\openvrpaths.vrpath
+[Child 34648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\13694\AppData\Local\openvr\openvrpaths.vrpath
