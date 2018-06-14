@@ -4,9 +4,9 @@
 ## 结构
 ![Alt text](https://github.com/ctnyan/image/raw/master/picture/1.png)  
 
-. data目录，存放测试数据；
-. logs,存放执行用例的日志；
-. public，存放的公共可供调用文件：  
+. data目录，存放测试数据；  
+. logs,存放执行用例的日志；  
+. public，存放的公共可供调用文件：    
 a. HTMLTestRunner_fky.py为生产测试报告的文件，从网络平台直接copy下了的，带汉化的版本，可以直接使用；  
 b. logger.py,集成的用以记录日志的模块；  
 c. MultiThread.py,多线程执行任务；  
