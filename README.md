@@ -26,7 +26,7 @@ e. Timing.py,定时执行任务
 ## 使用方法 
 - **在github上面下载下来整个项目，或者用克隆地址用git下载下来项目；**  
 - **使用pycharm或者eclipse打开项目；**  
-- ** 在testCase目录下创建一个PageTest1.py的python文件，写用例代码：  
+- **在testCase目录下创建一个PageTest1.py的python文件，写用例代码:**  
 `from public.PageOfPublic import PageOfPublic
 import unittest
 from data.baidu import *
@@ -75,6 +75,8 @@ class PageTest1(unittest.TestCase):
             raise
 
 if __name__ == "__main__":
-    unittest.main()`
+    unittest.main()`   
+    
+    
 
 
