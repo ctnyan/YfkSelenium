@@ -2,8 +2,9 @@
 ## 简介
 这是一个基于python 3语言编写的UI自动化测试工具，集成了测试报告，测试日志，错误截图，多线程定时执行任务等相关功能。
 ## 结构
-![Alt text](https://github.com/ctnyan/image/raw/master/picture/1.png)
-.  data目录，存放测试数据；
+![Alt text](https://github.com/ctnyan/image/raw/master/picture/1.png)  
+
+. data目录，存放测试数据；
 . logs,存放执行用例的日志；
 . public，存放的公共可供调用文件：  
 a. HTMLTestRunner_fky.py为生产测试报告的文件，从网络平台直接copy下了的，带汉化的版本，可以直接使用；  
