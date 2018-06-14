@@ -8,7 +8,7 @@
 1、安装python 3环境;  
 2、安装浏览器驱动,chrome浏览器驱动：chromedriver；firefox驱动：geckodriver，注意和浏览器版本对应，保证兼容性；  
 3、安装必要的库文件，可使用pip install packagename安装，如：`pip install selenium`。   
-<font corlor=#FF0000>selenium</font>  
-<font color=gray size=5>gray</font>
+1. selenium   
+2. 
 
 
