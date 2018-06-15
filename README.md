@@ -27,7 +27,90 @@ e. Timing.py,定时执行任务
 - **在github上面下载下来整个项目，或者用克隆地址用git下载下来项目；**  
 - **使用pycharm或者eclipse打开项目；**  
 - **在testCase目录下创建一个PageTest1.py的python文件，用例代码:**   
+```
+from public.PageOfPublic import PageOfPublic
+import unittest
+from data.baidu import *
+from data.youyouBlog import  *
+from public.logger import Logger
 
+class PageTest1(unittest.TestCase):
+    def setUp(self):
+        self.mylogger = Logger(logger='PageTest1').getlog()
+        driver = PageOfPublic("chrome")
+        self.driver = driver
+
+    def tearDown(self):
+        self.driver.quit("退出浏览器")
+
+    def test_01(self):
+        u"""定位失败用例"""
+        try:
+            self.driver.open_url(baidu_url,"百度网页")
+            self.driver.input_text("id","skw",input_text,"搜索内容")
+            self.driver.click('id','su',"搜索按钮")
+        except Exception as e:
+            self.mylogger.info(e)
+            self.driver.screen()
+            raise
+
+    def test_02(self):
+        u'''失败用例'''
+        try:
+            self.driver.open_url(yoyou_blog,"悠悠博客首页")
+            t = self.driver.get_title('上海-悠悠 - 博客园')
+            self.assertIn(u"悠s悠",t)
+        except Exception as e:
+            self.mylogger.info(e)
+            self.driver.screen()
+            raise
+
+    def test_03(self):
+        u'''通过用例'''
+        try:
+            self.driver.open_url(yoyou_blog,"悠悠博客首页")
+            self.assertIn(u"上海-悠悠",self.driver.get_title("上海-悠悠 - 博客园"))
+        except Exception as e:
+            self.mylogger.info(e)
+            self.driver.screen()
+            raise
+
+if __name__ == "__main__":
+    unittest.main()
+```
++ 用例如果执行失败，抛异常，写入日志：  
+`self.mylogger.info(e)`   
++ 保存截图  
+`self.driver.screen()`  
+
+.  **运行测试用例，生产测试报告**  
+```
+import unittest
+import os,time
+from public.HTMLTestRunner_fky import HTMLTestRunner
+
+
+if __name__ == '__main__':
+    testDir = os.path.join(os.getcwd(), '..\\testCase')
+    discover = unittest.defaultTestLoader.discover(testDir, pattern="PageTest1.py")
+    runner = unittest.TextTestRunner()
+
+    current_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+    report_path = "..\\result\\report\\" + current_time + '.html'  # 生成测试报告的路径
+    fp = open(report_path, "wb")
+    runner = HTMLTestRunner(stream=fp, title=u"自动化测试报告", description=u'自动化测试演示报告',verbosity=2)
+    runner.run(discover)
+    fp.close()
+```
+
+. **pycharm运行RunTestCase.py时控制台调试输出:**   
+```
+
+```   
+. **日志记录：**    
+. **错误截屏：**    
+. **测试报告：**  
+. **多线程执行多个用例：**
 
 
     
