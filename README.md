@@ -104,7 +104,7 @@ if __name__ == '__main__':
 ```
 
 . **pycharm运行RunTestCase.py时控制台调试输出:**   
-![Alt text](https://github.com/ctnyan/image/raw/master/picture/运行用例控制台输出运行日志信息.png)  
+![Alt text](https://github.com/ctnyan/image/raw/master/运行用例控制台输出运行日志信息.png)  
 . **日志记录：**  
 ![Alt text](https://github.com/ctnyan/image/raw/master/日志生成.png)   
 . **错误截屏：**   
