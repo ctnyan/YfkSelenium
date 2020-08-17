@@ -1,0 +1,18 @@
+2020-08-17 18:05:41,385 - readExcel.py - [line:86]-INFO - 数据校验完毕，即将开始执行用例:PR查询.xlsx
+2020-08-17 18:05:44,270 - pageElement.py - [line:103]-INFO - 打开百度首页
+2020-08-17 18:05:54,307 - testCase_PR查询.py - [line:37]-INFO - 用例 "PR查询.xlsx"执行失败
+2020-08-17 18:05:54,660 - pageElement.py - [line:150]-INFO - 截图
+2020-08-17 18:05:58,809 - readExcel.py - [line:86]-INFO - 数据校验完毕，即将开始执行用例:嵌套公共业务模块的演示.xlsx
+2020-08-17 18:06:01,071 - pageElement.py - [line:103]-INFO - 打开百度首页
+2020-08-17 18:06:01,274 - pageElement.py - [line:110]-INFO - 在【/html//input[@id='kw']】中输入输入搜索内容
+2020-08-17 18:06:01,368 - pageElement.py - [line:114]-INFO - 【su】点击点搜索按钮
+2020-08-17 18:06:04,404 - pageElement.py - [line:103]-INFO - 打开悠悠博客
+2020-08-17 18:06:04,422 - pageElement.py - [line:209]-INFO - 获取标题：【获取标题】
+2020-08-17 18:06:06,814 - pageElement.py - [line:118]-INFO - 退出浏览器
+2020-08-17 18:06:06,814 - readExcel.py - [line:119]-INFO - 用例执行完毕
+2020-08-17 18:06:10,360 - readExcel.py - [line:86]-INFO - 数据校验完毕，即将开始执行用例:百度查询1.xlsx
+2020-08-17 18:06:13,285 - pageElement.py - [line:103]-INFO - 打开百度首页
+2020-08-17 18:06:13,426 - pageElement.py - [line:110]-INFO - 在【/html//input[@id='kw']】中输入输入搜索内容
+2020-08-17 18:06:13,611 - pageElement.py - [line:114]-INFO - 【su】点击点搜索按钮
+2020-08-17 18:06:16,009 - pageElement.py - [line:118]-INFO - 退出浏览器
+2020-08-17 18:06:16,010 - readExcel.py - [line:119]-INFO - 用例执行完毕

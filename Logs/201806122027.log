@@ -1,6 +1,0 @@
-2018-06-12 20:27:23,235 - PageOfPublic.py - [line:97]-INFO - 打开好123网页
-2018-06-12 20:27:23,241 - PageOfPublic.py - [line:164]-INFO - 滚动页面到底部
-2018-06-12 20:27:24,241 - PageOfPublic.py - [line:114]-INFO - 延时1秒
-2018-06-12 20:27:25,872 - PageOfPublic.py - [line:164]-INFO - 滚动页面到顶部
-2018-06-12 20:27:26,873 - PageOfPublic.py - [line:114]-INFO - 延时1秒
-2018-06-12 20:27:28,188 - PageOfPublic.py - [line:110]-INFO - 退出浏览器

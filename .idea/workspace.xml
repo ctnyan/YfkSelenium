@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1c8122-3f4a-4fe0-ac54-9f453ee416ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/caseStatusSetting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/autoCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/readExcel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/更新日志.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/YfkSelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/YfkSelenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/201806122023.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/201806122024.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/201806122027.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/PageOfPublic.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/pageElement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/report/2018-06-12-20_17_18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/report/2018-06-12-20_23_33.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/report/2018-06-12-20_27_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/screen/2018_06_12_17_05_33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/screen/2018_06_12_20_17_43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/screen/2018_06_12_20_22_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/screen/2018_06_12_20_22_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/screen/2018_06_12_20_23_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/screen/2018_06_12_20_24_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runCase/RunTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/runCase/RunTestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/pageTest1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/pageTest2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/pageTest3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/pageTest4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/pageTest5.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,75 +40,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_for_pageTest1_PageTest1_test_01.coverage" NAME="Unittests for pageTest1.PageTest1.test_01 Coverage Results" MODIFIED="1597306198820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$readExcel.coverage" NAME="readExcel Coverage Results" MODIFIED="1597657126046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_in_pageTest6_py.coverage" NAME="Unittests in pageTest6.py Coverage Results" MODIFIED="1597312869487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_in_testCase_1_py.coverage" NAME="Unittests in testCase_百度查询1.py Coverage Results" MODIFIED="1597393033585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_for_PageTest1_PageTest1_test_02.coverage" NAME="Unittests for PageTest1.PageTest1.test_02 Coverage Results" MODIFIED="1597215213289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_for_PageTest1_PageTest1_test_01.coverage" NAME="Unittests for PageTest1.PageTest1.test_01 Coverage Results" MODIFIED="1597226725154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$autoCase.coverage" NAME="autoCase Coverage Results" MODIFIED="1597651451856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$pageElement.coverage" NAME="pageElement Coverage Results" MODIFIED="1597222622409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1597222816657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_in_testCase_PR_py.coverage" NAME="Unittests in testCase_PR查询.py Coverage Results" MODIFIED="1597653234576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$caseStatusSetting.coverage" NAME="caseStatusSetting Coverage Results" MODIFIED="1597654158184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_for_PageTest1_PageTest1.coverage" NAME="Unittests for PageTest1.PageTest1 Coverage Results" MODIFIED="1597216530572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_in_pageTest1_py.coverage" NAME="Unittests in pageTest1.py Coverage Results" MODIFIED="1597311965142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_in_PageTest1_py.coverage" NAME="Unittests in PageTest1.py Coverage Results" MODIFIED="1597223464899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$Unittests_in_pageTest2_py.coverage" NAME="Unittests in pageTest2.py Coverage Results" MODIFIED="1597306151959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/YfkSelenium$RunTestCase.coverage" NAME="RunTestCase Coverage Results" MODIFIED="1597658736532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runCase" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PageTest4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/PageTest4.py">
+      <file leaf-file-name="readExcel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/readExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="1086">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
               <folding>
-                <element signature="e#25#69#0" expanded="true" />
+                <element signature="e#78#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunThreadsOnTime.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runCase/RunThreadsOnTime.py">
+      <file leaf-file-name="ntpath.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python37-32/Lib/ntpath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <element signature="e#86#101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="122">
+              <caret line="296" selection-start-line="296" selection-end-line="296" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageTest2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/PageTest2.py">
+      <file leaf-file-name="sheet.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python37-32/Lib/site-packages/xlrd/sheet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="e#23#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="494" selection-start-line="494" selection-end-line="494" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageOfPublic.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/PageOfPublic.py">
+      <file leaf-file-name="testCase_嵌套公共业务模块的演示.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/testCase_嵌套公共业务模块的演示.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="132">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="36" />
               <folding>
-                <element signature="e#82#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageTest5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/PageTest5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding>
-                <element signature="e#24#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageTest3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/PageTest3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="17" />
-              <folding>
-                <element signature="e#24#68#0" expanded="true" />
+                <element signature="e#89#142#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +105,8 @@
       <file leaf-file-name="RunTestCase.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runCase/RunTestCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+            <state relative-caret-position="176">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#82#97#0" expanded="true" />
               </folding>
@@ -97,13 +114,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageTest1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/PageTest1.py">
+      <file leaf-file-name="baidu.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="caseStatusSetting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/caseStatusSetting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="55" />
               <folding>
-                <element signature="e#15#59#0" expanded="true" />
+                <element signature="e#87#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +148,18 @@
     <findStrings>
       <find>send_keys</find>
       <find>keys</find>
-      <find>input</find>
+      <find>定位方式必填</find>
+      <find>click</find>
+      <find>quit</find>
+      <find>get</find>
+      <find>open_url</find>
       <find>text</find>
+      <find>url</find>
+      <find>input</find>
+      <find>page</find>
+      <find>open</find>
+      <find>screen</find>
+      <find>getCaseFile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,19 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frame/PageOfPublic.py" />
-        <option value="$PROJECT_DIR$/frame/HTMLTestRunnerCN.py" />
-        <option value="$PROJECT_DIR$/frame/HTMLTestRunner_jpg.py" />
-        <option value="$PROJECT_DIR$/public/HTMLTestRunner_yfk.py" />
-        <option value="$PROJECT_DIR$/runCase/run.py" />
-        <option value="$PROJECT_DIR$/testCase/PageOfPurchaseorders.py" />
-        <option value="$PROJECT_DIR$/testCase/login_jxc.py" />
-        <option value="$PROJECT_DIR$/testCase/modifyPurchaseOrder.py" />
-        <option value="$PROJECT_DIR$/testCase/Login_jxc.py" />
-        <option value="$PROJECT_DIR$/testCase/df.py" />
-        <option value="$PROJECT_DIR$/testCase/dfss.py" />
-        <option value="$PROJECT_DIR$/public/good.py" />
-        <option value="$PROJECT_DIR$/testCase/Loginjxc.py" />
         <option value="$PROJECT_DIR$/testCase/PageOfNewerp.py" />
         <option value="$PROJECT_DIR$/testCase/test.py" />
         <option value="$PROJECT_DIR$/business/PageOfNewerp.py" />
@@ -176,18 +199,40 @@
         <option value="$PROJECT_DIR$/testCase/test1.py" />
         <option value="$PROJECT_DIR$/data/baidu.py" />
         <option value="$PROJECT_DIR$/testCase/ts.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/public/PageOfPublic.py" />
+        <option value="$PROJECT_DIR$/testCase/PageTest4.py" />
+        <option value="$PROJECT_DIR$/testCase/PageTest5.py" />
         <option value="$PROJECT_DIR$/testCase/PageTest3.py" />
         <option value="$PROJECT_DIR$/testCase/PageTest1.py" />
+        <option value="$PROJECT_DIR$/runCase/RunTestCase1.py" />
         <option value="$PROJECT_DIR$/testCase/PageTest2.py" />
-        <option value="$PROJECT_DIR$/testCase/PageTest4.py" />
+        <option value="$PROJECT_DIR$/testCase/pageTest2.py" />
+        <option value="$PROJECT_DIR$/testCase/pageTest1.py" />
+        <option value="$PROJECT_DIR$/public/pageElement.py" />
+        <option value="$PROJECT_DIR$/testCase/pageTest6.py" />
+        <option value="$PROJECT_DIR$/testCase/testCase_百度查询1.py" />
+        <option value="$PROJECT_DIR$/data/config.ini" />
+        <option value="$PROJECT_DIR$/更新日志.md" />
+        <option value="$PROJECT_DIR$/data/caseStatusSetting.py" />
+        <option value="$PROJECT_DIR$/public/autoCase.py" />
         <option value="$PROJECT_DIR$/runCase/RunTestCase.py" />
-        <option value="$PROJECT_DIR$/testCase/PageTest5.py" />
+        <option value="$PROJECT_DIR$/testCase/testCase_PR查询.py" />
+        <option value="$PROJECT_DIR$/public/readExcel.py" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
+    <option name="x" value="-7" />
     <option name="y" value="9" />
     <option name="width" value="1376" />
     <option name="height" value="687" />
@@ -210,21 +255,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,7 +270,36 @@
             <path>
               <item name="YfkSelenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="YfkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YfkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YfkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="excelCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YfkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YfkSelenium" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YfkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YfkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YfkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YfkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="runCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YfkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YfkSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YfkSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -245,16 +308,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
-    <property name="last_opened_file_path" value="E:/UI自动化项目/ebay每日检查/PythonSelenium2" />
     <property name="SearchEverywhereHistoryKey" value="set ba&#9;ACTION&#9;Images.SetBackgroundImage&#10;set bac&#9;ACTION&#9;Images.SetBackgroundImage&#10;set back&#9;ACTION&#9;Images.SetBackgroundImage" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Ini&#10;Markdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\eclipse_workspace4\YfkSelenium\frame" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\有课树测试项目\YfkSelenium" />
       <recent name="D:\eclipse_workspace4\YfkSelenium\business" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\有课树测试项目\YfkSelenium\public" />
+      <recent name="D:\eclipse_workspace4\YfkSelenium\frame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,6 +338,7 @@
   </component>
   <component name="RunManager" selected="Python.RunTestCase">
     <configuration name="RunTestCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="YfkSelenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -281,92 +349,100 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="YfkSelenium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runCase/RunTestCase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="autoCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="YfkSelenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="YfkSelenium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testCase/ts.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/autoCase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests in PageTest1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="caseStatusSetting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="YfkSelenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/caseStatusSetting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="readExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="YfkSelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/readExcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests in testCase_PR查询.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="YfkSelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="YfkSelenium" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/PageTest1.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/testCase_PR查询.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in PageTest2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="YfkSelenium" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/PageTest2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in PageTest3.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="YfkSelenium" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/PageTest3.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in PageTest2.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in PageTest3.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in PageTest1.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ts" />
-      <item index="4" class="java.lang.String" itemvalue="Python.RunTestCase" />
+    <list>
+      <item itemvalue="Python.RunTestCase" />
+      <item itemvalue="Python.autoCase" />
+      <item itemvalue="Python.caseStatusSetting" />
+      <item itemvalue="Python.readExcel" />
+      <item itemvalue="Python tests.Unittests in testCase_PR查询.py" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.RunTestCase" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in PageTest1.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in PageTest3.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PageTest2.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ts" />
+      <list>
+        <item itemvalue="Python.RunTestCase" />
+        <item itemvalue="Python.readExcel" />
+        <item itemvalue="Python.caseStatusSetting" />
+        <item itemvalue="Python tests.Unittests in testCase_PR查询.py" />
+        <item itemvalue="Python.autoCase" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -382,58 +458,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_PageTest1_py - 2018.06.12 at 16h 09m 45s.xml">
-      <configuration name="Unittests in PageTest1.py" configurationId="tests" />
+    <history-entry file="Unittests_in_pageTest6_py - 2020.08.13 at 09h 12m 21s.xml">
+      <configuration name="Unittests in pageTest6.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest1_py - 2018.06.12 at 20h 22m 40s.xml">
-      <configuration name="Unittests in PageTest1.py" configurationId="tests" />
+    <history-entry file="Unittests_in_pageTest6_py - 2020.08.13 at 11h 46m 52s.xml">
+      <configuration name="Unittests in pageTest6.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest2_py - 2018.06.12 at 16h 53m 57s.xml">
-      <configuration name="Unittests in PageTest2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_pageTest6_py - 2020.08.13 at 12h 04m 21s.xml">
+      <configuration name="Unittests in pageTest6.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest2_py - 2018.06.12 at 16h 55m 31s.xml">
-      <configuration name="Unittests in PageTest2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_pageTest2_py - 2020.08.13 at 16h 09m 13s.xml">
+      <configuration name="Unittests in pageTest2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest2_py - 2018.06.12 at 16h 56m 34s.xml">
-      <configuration name="Unittests in PageTest2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_pageTest1_PageTest1_test_01 - 2020.08.13 at 16h 10m 06s.xml">
+      <configuration name="Unittests for pageTest1.PageTest1.test_01" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest2_py - 2018.06.12 at 16h 58m 22s.xml">
-      <configuration name="Unittests in PageTest2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_pageTest1_py - 2020.08.13 at 16h 15m 12s.xml">
+      <configuration name="Unittests in pageTest1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest2_py - 2018.06.12 at 17h 00m 16s.xml">
-      <configuration name="Unittests in PageTest2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_pageTest1_py - 2020.08.13 at 17h 46m 39s.xml">
+      <configuration name="Unittests in pageTest1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest2_py - 2018.06.12 at 17h 01m 34s.xml">
-      <configuration name="Unittests in PageTest2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_pageTest6_py - 2020.08.13 at 18h 01m 26s.xml">
+      <configuration name="Unittests in pageTest6.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest3_py - 2018.06.12 at 17h 03m 09s.xml">
-      <configuration name="Unittests in PageTest3.py" configurationId="tests" />
+    <history-entry file="Unittests_in_testCase_百度查询1_py - 2020.08.14 at 16h 17m 23s.xml">
+      <configuration name="Unittests in testCase_百度查询1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PageTest3_py - 2018.06.12 at 17h 05m 36s.xml">
-      <configuration name="Unittests in PageTest3.py" configurationId="tests" />
+    <history-entry file="Unittests_in_testCase_PR查询_py - 2020.08.17 at 16h 34m 11s.xml">
+      <configuration name="Unittests in testCase_PR查询.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24032739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36764705" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28921568" sideWeight="0.49702382" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61374795" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16993465" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5045386" side_tool="true" weight="0.24549918" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" weight="0.4811784" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3715221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3797054" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4977307" weight="0.20294599" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -442,10 +527,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testCase/PageTest5.py</url>
-          <line>2</line>
+          <url>file://D:/Python37-32/Lib/logging/__init__.py</url>
+          <line>2110</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -453,278 +542,354 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="16" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="m" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testCase/test.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/ModifyPurchaseOrder.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business/LoginNewerp.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/ModifyPurchaseOrderhz.py" />
-    <entry file="file://$PROJECT_DIR$/data/jxcdata.py" />
-    <entry file="file://D:/python3.6.4/Lib/site-packages/threadpool.py">
+    <entry file="file://$PROJECT_DIR$/Logs/202008121048.log" />
+    <entry file="file://$PROJECT_DIR$/Logs/202008121414.log" />
+    <entry file="file://$PROJECT_DIR$/Logs/202008121426.log" />
+    <entry file="file://$PROJECT_DIR$/testCase/pageTest4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="230" column="34" lean-forward="false" selection-start-line="230" selection-start-column="23" selection-end-line="230" selection-end-column="34" />
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageOfAmazon2.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/PageOfAmazon1.py" />
-    <entry file="file://D:/python3.6.4/Lib/site-packages/apscheduler/__init__.py">
+    <entry file="file://D:/Python37-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="1100" column="8" selection-start-line="1100" selection-start-column="8" selection-end-line="1100" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python3.6.4/Lib/site-packages/apscheduler/schedulers/__init__.py">
+    <entry file="file://D:/Python37-32/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageOfEbay.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-849466589/builtins.py">
+    <entry file="file://D:/Python37-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7520">
-          <caret line="499" column="4" lean-forward="false" selection-start-line="499" selection-start-column="4" selection-end-line="499" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="-2777">
+          <caret line="977" selection-start-line="977" selection-end-line="977" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python3.6.4/Lib/site-packages/schedule/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4860">
-          <caret line="243" column="8" lean-forward="false" selection-start-line="243" selection-start-column="8" selection-end-line="243" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/runCase/RunTestCase1.py" />
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/runCase/TimeRun.py" />
-    <entry file="file://$PROJECT_DIR$/runCase/run.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/PageOfPurchaseorders.py" />
-    <entry file="file://$PROJECT_DIR$/public/DingdingMessage.py" />
     <entry file="file://$PROJECT_DIR$/public/HTMLTestRunner_fky.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="691" column="0" lean-forward="false" selection-start-line="691" selection-start-column="0" selection-end-line="691" selection-end-column="0" />
+        <state relative-caret-position="-7604">
+          <caret line="555" column="25" selection-start-line="555" selection-start-column="25" selection-end-line="555" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/sf.py" />
-    <entry file="file://$PROJECT_DIR$/data/sd.py" />
     <entry file="file://$PROJECT_DIR$/public/HTMLTestReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13840">
-          <caret line="698" column="30" lean-forward="false" selection-start-line="698" selection-start-column="30" selection-end-line="698" selection-end-column="30" />
+        <state relative-caret-position="284">
+          <caret line="862" selection-start-line="862" selection-end-line="862" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-843230532/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/site-packages/urllib3/connectionpool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="637" selection-start-line="637" selection-end-line="637" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/pageTest5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/site-packages/urllib3/util/retry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="397" selection-start-line="397" selection-end-line="397" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/pageTest2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/pageTest3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/site-packages/selenium/webdriver/ie/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/pageTest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/pageTest6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.ini" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ini" />
+    <entry file="file://$PROJECT_DIR$/testCase/testCase_百度查询1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/MultiThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/caseStatusSetting.csv" />
+    <entry file="file://D:/Python37-32/Lib/site-packages/pandas/core/internals/construction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="357" selection-start-line="357" selection-end-line="357" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4678" column="8" selection-start-line="4678" selection-start-column="8" selection-end-line="4678" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="669" selection-start-line="669" selection-end-line="669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="4052" column="22" selection-start-line="4052" selection-start-column="16" selection-end-line="4052" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="154">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding>
             <element signature="e#45#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/MultiThread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+    <entry file="file://$PROJECT_DIR$/更新日志.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="352">
+            <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/test7.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/test6.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/test5.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/test4.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/test2.py" />
-    <entry file="file://D:/python3.6.4/Lib/unittest/suite.py">
+    <entry file="file://$PROJECT_DIR$/data/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageTest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/baidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/Timing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#77#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python3.6.4/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+    <entry file="file://D:/Python37-32/Lib/site-packages/pandas/io/excel/_xlrd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="210" column="42" lean-forward="true" selection-start-line="210" selection-start-column="42" selection-end-line="210" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/screen/2018_06_12_17_05_33.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/python3.6.4/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+    <entry file="file://$PROJECT_DIR$/public/autoCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="447" column="35" lean-forward="false" selection-start-line="447" selection-start-column="29" selection-end-line="447" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="-1056">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="e#77#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/ts.py">
+    <entry file="file://$PROJECT_DIR$/testCase/testCase_PR查询.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="20" column="76" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="76" />
+          <folding>
+            <element signature="e#82#135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python3.6.4/Lib/unittest/case.py">
+    <entry file="file://D:/Python37-32/Lib/site-packages/xlrd/sheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="677" column="34" lean-forward="false" selection-start-line="677" selection-start-column="31" selection-end-line="677" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="87">
+          <caret line="494" selection-start-line="494" selection-end-line="494" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runCase/RunThreadsOnTime.py">
+    <entry file="file://$PROJECT_DIR$/public/pageElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#81#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="1372" column="8" selection-start-line="1372" selection-start-column="8" selection-end-line="1372" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37-32/Lib/test/test_logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3198" column="16" selection-start-line="3198" selection-start-column="16" selection-end-line="3198" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/testCase_嵌套公共业务模块的演示.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="36" />
           <folding>
-            <element signature="e#86#101#0" expanded="true" />
+            <element signature="e#89#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/screen/2018_06_12_20_17_43.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/screen/2018_06_12_20_22_19.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/screen/2018_06_12_20_22_28.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/screen/2018_06_12_20_23_50.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/screen/2018_06_12_20_24_00.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageTest2.py">
+    <entry file="file://D:/Python37-32/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#23#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="122">
+          <caret line="296" selection-start-line="296" selection-end-line="296" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageTest1.py">
+    <entry file="file://D:/Python37-32/Lib/zipfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="e#15#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="1178" selection-start-line="1178" selection-end-line="1178" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageTest3.py">
+    <entry file="file://D:/Python37-32/Lib/site-packages/xlrd/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/caseStatusSetting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="55" />
           <folding>
-            <element signature="e#24#68#0" expanded="true" />
+            <element signature="e#87#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runCase/RunTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+        <state relative-caret-position="176">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#82#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageTest5.py">
+    <entry file="file://$PROJECT_DIR$/public/readExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="1086">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
           <folding>
-            <element signature="e#24#68#0" expanded="true" />
+            <element signature="e#78#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/PageTest4.py">
+    <entry file="file://$PROJECT_DIR$/data/baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#25#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/PageOfPublic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#82#114#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
